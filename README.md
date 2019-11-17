@@ -1,0 +1,3 @@
+# Final-Project-Documentation
+
+This is a web game that tracks the position of a person in front of the camera to determine the movements of the ball the that is being controlled. The game features Posenet, taking advantage of the library's impressive ability to consistently track parts of a person's body. Leaning to one side or another makes the ball move to the same side that the person is leaning towards. Jumping, which is detected once the shoulder positions are tracked to be above a certain position, causes the ball to jump. The game takes the data from Posenet's processing of the live video and uses p5.js to display this information for the user to see in their live video at the top of the game.
